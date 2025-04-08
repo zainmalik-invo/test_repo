@@ -1,4 +1,5 @@
 (function () {
+  console.log("Loaded Script")
   function extractOrderIdsFromHAR(harEntries) {
     const orderIds = new Set();
 
